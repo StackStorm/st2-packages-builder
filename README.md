@@ -30,3 +30,5 @@ docker-compose run el6
 docker ps                                     # view container list
 docker exec st2packages-centos6test_1 bash    # connect to the test container which contains packages
 ```
+
+Packages can be found in `/tmp/st2-packages`. See [this](https://github.com/StackStorm/st2-packages#usage) for more info.
